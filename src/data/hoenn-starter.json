@@ -1,0 +1,16 @@
+{
+  "hoennStarters": [
+    {
+      "photoName": "Treecko",
+      "src": "/images/treecko.jpg"
+    },
+    {
+      "photoName": "Torchic",
+      "src": "/images/torchic.jpg"
+    },
+    {
+      "photoName": "Mudkip",
+      "src": "/images/mudkip.jpg"
+    }
+  ]
+}
