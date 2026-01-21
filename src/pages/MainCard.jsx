@@ -13,9 +13,8 @@ export default function MainCard() {
           Starter Pokémon
         </p>
       </header>
-
       {/* Cards Container */}
-      <div className="flex justify-center items-center gap-6 flex-wrap max-w-full overflow-hidden">
+      <div className="flex justify-center items-center gap-6 flex-wrap max-w-full flex-col lg:flex-row overflow-hidden">
         {starters.hoennStarters.map((pokemon) => (
           <PokemonCard
             key={pokemon.photoName}
