@@ -32,6 +32,7 @@ export default function Navbar() {
           <Link to="/todolist" className="px-3 py-2 rounded hover:bg-gray-700">
             TodoList
           </Link>
+          
 
           {/* Dropdown for Desktop */}
           <div className="relative">
@@ -63,6 +64,20 @@ export default function Navbar() {
                   onClick={() => setDropdownOpen(false)}
                 >
                   Responsive 3
+                </Link>
+                <Link
+                  to="/responsive4"
+                  className="block px-4 py-2 hover:bg-gray-600 rounded-b"
+                  onClick={() => setDropdownOpen(false)}
+                >
+                  Responsive 4
+                </Link>
+                <Link
+                  to="/responsive5"
+                  className="block px-4 py-2 hover:bg-gray-600 rounded-b"
+                  onClick={() => setDropdownOpen(false)}
+                >
+                  Responsive 5
                 </Link>
               </div>
             )}
@@ -141,6 +156,26 @@ export default function Navbar() {
                   }}
                 >
                   Responsive 3
+                </Link>
+                <Link
+                  to="/responsive4"
+                  className="px-3 py-2 rounded hover:bg-gray-600"
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    setMenuOpen(false);
+                  }}
+                >
+                  Responsive 4
+                </Link>
+                <Link
+                  to="/responsive5"
+                  className="px-3 py-2 rounded hover:bg-gray-600"
+                  onClick={() => {
+                    setDropdownOpen(false);
+                    setMenuOpen(false);
+                  }}
+                >
+                  Responsive 5
                 </Link>
               </div>
             )}

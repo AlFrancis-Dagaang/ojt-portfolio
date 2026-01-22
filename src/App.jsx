@@ -7,6 +7,8 @@ import TodoList from "./pages/TodoList";
 import Responsive from "./pages/Responsive";
 import Responsive2 from "./pages/Responsive2";
 import Responsive3 from "./pages/Responsive3";
+import Responsive4 from "./pages/Responsive4";
+import Responsive5 from "./pages/Responsive5";
 
 function App() {
   
@@ -23,6 +25,8 @@ function App() {
           <Route path="/responsive" element={<Responsive/>}/>
           <Route path="/responsive2" element={<Responsive2/>}/>
           <Route path="/responsive3" element={<Responsive3/>}/>
+          <Route path="/responsive4" element={<Responsive4/>}/>
+          <Route path="/responsive5" element={<Responsive5/>}/>
         </Routes>
       </section>
 
